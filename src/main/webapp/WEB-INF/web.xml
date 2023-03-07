@@ -3,4 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <description></description>
+        <servlet-name>MyServletName</servlet-name>
+        <display-name>MyServletName</display-name>
+        <servlet-class>mpac.learning.jsp.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServletName</servlet-name>
+        <url-pattern>/login.jsp</url-pattern>
+    </servlet-mapping>
 </web-app>
