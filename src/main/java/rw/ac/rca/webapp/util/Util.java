@@ -16,7 +16,6 @@ import java.util.Date;
  * @author Aphrodice Rwagaju
  *
  */
-
 public class Util {
 
     public static String generateHashedString(String psw) {
