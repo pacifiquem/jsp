@@ -2,7 +2,6 @@
 /target/
 /build/
 /out/
-/dist/
 
 # Application server-specific files and directories
 /.idea/
